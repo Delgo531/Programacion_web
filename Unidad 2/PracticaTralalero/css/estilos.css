@@ -1,0 +1,14 @@
+.sectionTittle {
+    color: peru;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.articleContent {
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainTitle{
+    color: blueviolet;
+    font-family: fantasy;
+}
