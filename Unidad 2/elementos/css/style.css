@@ -1,0 +1,59 @@
+h1{
+    background-color: tomato;
+}
+
+.box{
+    margin: 30px;
+    padding: 5px;
+    border: 3px solid tomato;
+    background-color: blue;
+}
+
+.box-2{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    
+    /*Por defecto*/
+
+    position: static;
+}
+
+.box-3{
+
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+    
+    /*Por defecto*/
+
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+}
+
+.container{
+    width: 300px;
+    height: 200px;
+    background-color: greenyellow;
+    position: relative;
+
+}
+.box-4{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+}
+.box-5{
+    width: auto;
+    height: 100px;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
