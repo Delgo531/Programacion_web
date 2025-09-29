@@ -1,0 +1,20 @@
+.tituloPrincipal{
+    color: darkblue;
+}
+.tituloSecundario{
+    color: darkcyan;
+}
+.texto{
+    color: darkgrey;
+}
+.secciones{
+
+}
+.menu{
+
+    background-color: gray;
+    position: fixed;
+    top: 0px;
+    
+
+}
