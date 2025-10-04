@@ -1,0 +1,38 @@
+body{
+    background-color: #413C58;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    gap: 20px;
+}
+.pelicula-cover{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+.contenedor-peliculas{
+    border-radius: 10px;
+    width: 300px;
+    height: 730px;
+    background-color: #CCDAD1;
+    padding: 8px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+   .contenedor{
+    grid-template-columns: repeat(2,2fr);
+   }
+   .pelicula-cover{
+    background-color: #9CAEA9;
+   }
+}
+
+@media(max-width: 768px){
+   .contenedor{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .pelicula-cover{
+    background-color: #788585 ;
+   }
+}
