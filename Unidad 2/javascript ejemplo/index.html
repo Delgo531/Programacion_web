@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplo JS</title>
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript</h1>
+    </header>
+
+    <main id="main"></main>
+
+    <script>
+      let numero1 = 6;
+      let numero2 = 2;
+
+      console.log("El numero 1 es: " + numero1);
+      console.log("El numero 2 es: " + numero2);
+
+      let suma = numero1 + numero2;
+      let resta = numero1 - numero2;
+      let multiplicacion = numero1 * numero2;
+      let division = numero1 / numero2;
+
+      console.log("suma: " + suma);
+      console.log("resta: " + resta);
+      console.log("multiplicacion: " + multiplicacion);
+      console.log("division: " + division);
+
+      let main = document.getElementById("main");
+      main.textContent += "la suma es: " + suma;
+      main.textContent += " la resta es: " + resta;
+      main.textContent += " la multiplicación es: " + multiplicacion;
+      main.textContent += " la división es: " + division;
+    </script>
+  </body>
+</html>
