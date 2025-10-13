@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Inicio de sesion</h1>
+    </header>
+
+    <main>
+      <label for="usuario">Usuario:</label>
+      <input type="text" name="usuario" id="usuario" />
+      <br />
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre" />
+      <br />
+      <label for="apellidos">Apellidos:</label>
+      <input type="text" name="apellidos" id="apellidos" />
+      <br />
+      <label for="nacimiento">Fecha de nacimiento:</label>
+      <input type="date" name="nacimiento" id="nacimiento" />
+      <br />
+      <label for="genero">Genero:</label>
+      <input type="radio" name="genero" id="hombre" />
+      <label for="hombre">Hombre</label>
+      <input type="radio" name="genero" id="mujer" />
+      <label for="mujer">Mujer</label>
+      <input type="radio" name="genero" id="otro" />
+      <label for="otro">Otro...</label>
+
+      <h2>Terminos y condiciones</h2>
+      <p>
+        Al acceder y utilizar Tralalero Tralala Software Solutions (el
+        "Servicio"), usted tonoto acepta y se compromete a cumplir con
+        estos Términos y Condiciones, obligándose a usar el Servicio de manera
+        lícita y responsable, sin infringir los derechos de propiedad
+        intelectual sobre el contenido, que es propiedad exclusiva de Tralalero
+        Tralala Software Solutions. El Servicio se proporciona "tal cual", sin
+        garantías, y nuestra responsabilidad se limita al máximo permitido por
+        la ley. Nos reservamos el derecho de modificar estos términos en
+        cualquier momento, y su uso continuado constituye la aceptación de
+        dichas modificaciones. Cualquier disputa se regirá por las leyes de
+        Morelos y se someterá a la jurisdicción de los tribunales de
+        Emiliano Zapata.
+      </p>
+
+      <input type="radio" name="terminos" id="aceptar">
+      <label for="aceptar">Aceptar</label>
+      <input type="radio" name="terminos" id="denegar">
+      <label for="denegar">Denegar</label>
+      <br>
+      <button id="btnRegistrarse">Registrarse</button>      
+
+      <div id="confirmacion"></div>
+
+
+      <script src="javascript/app.js"></script>
+    </main>
+  </body>
+</html>

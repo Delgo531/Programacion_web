@@ -1,19 +1,17 @@
-let login = getElementById("btnLogin");
+let btnLogin = document.getElementById("btnLogin");
 
-function login() {
-  let usuario = document.getElementById("inputUsuario");
-  let password = document.getElementById("inputPassword");
+btnLogin.addEventListener("click", function () {
+  let usuario = document.getElementById("inputUsuario").value;
+  let password = document.getElementById("inputPassword").value;
   let confirm = document.getElementById("loginConfirm");
 
-  if (usuario != null && password != null) {
-    confirm.innerHTML = "<p> Iniciando sesion...";
-  } else if (usuario == null && password != null) {
-    confirm.innerHTML = "<p> falta ingrear usuario";
-  } else if (usuario != null && password == null) {
-    confirm.innerHTML = "<p> falta ingrear contraseña";
+  if (usuario !== "" && password !== "") {
+    confirm.innerHTML = "<p>Iniciando sesión...</p>";
+  } else if (usuario === "" && password !== "") {
+    confirm.innerHTML = "<p>Falta ingresar usuario</p>";
+  } else if (usuario !== "" && password === "") {
+    confirm.innerHTML = "<p>Falta ingresar contraseña</p>";
   } else {
-    confirm.innerHTML = "<p> falta ingrear usuario y contraseña";
+    confirm.innerHTML = "<p>Falta ingresar usuario y contraseña</p>";
   }
-}
-
-
+});
